@@ -75,7 +75,11 @@ def load_ml_pipeline():
     try:
         preprocessor = joblib.load('saved_model/preprocessor.joblib')
         model = joblib.load('saved_model/best_model.joblib')
-        metrics = joblib.load('saved_model/model_metrics.json') if os.path.exists('saved_model/model_metrics.json') else {}
+        metrics = {}
+        if os.path.exists('saved_model/model_metrics.json'):
+            import json
+            with open('saved_model/model_metrics.json', 'r') as f:
+                metrics = json.load(f)
         return preprocessor, model, metrics
     except Exception as e:
         st.error(f"Error loading model weights: {str(e)}. Please run training first.")
