@@ -2,6 +2,14 @@
 
 A production-ready machine learning project designed to predict car prices using historical dataset metrics and interactive dashboards.
 
+## 🚀 Live Deployments
+
+- **Production SaaS Dashboard (React + Vercel)**: [Live Web App](https://codealpha-car-price-prediction.vercel.app)
+- **Interactive Data App (Streamlit Cloud)**: [Streamlit Live App](https://codealpha-car-price-prediction.streamlit.app)
+- **FastAPI ML Backend (Render)**: [API Documentation (Swagger)](https://car-price-api.onrender.com/docs)
+
+*Note: If your hosted subdomains on Vercel, Streamlit, or Render are named differently, feel free to update these links in the file.*
+
 ## Project Architecture & Tech Stack
 
 This project is divided into two primary parts: a FastAPI backend serving ML model predictions and analytics, and a React + TypeScript frontend utilizing Tailwind CSS and interactive plotting libraries.
