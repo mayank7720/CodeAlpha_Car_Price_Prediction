@@ -1,0 +1,80 @@
+{
+    "Linear Regression": {
+        "MAE": 1.3495,
+        "MSE": 5.6805,
+        "RMSE": 2.3834,
+        "R2_Score": 0.7796,
+        "CV_Score": 0.8392,
+        "Training_Time": 0.0108,
+        "Prediction_Time": 5.6e-05
+    },
+    "Ridge Regression": {
+        "MAE": 1.3803,
+        "MSE": 5.8949,
+        "RMSE": 2.428,
+        "R2_Score": 0.7713,
+        "CV_Score": 0.8989,
+        "Training_Time": 2.6258,
+        "Prediction_Time": 9.8e-05
+    },
+    "Lasso Regression": {
+        "MAE": 1.4773,
+        "MSE": 6.3628,
+        "RMSE": 2.5225,
+        "R2_Score": 0.7531,
+        "CV_Score": 0.8543,
+        "Training_Time": 0.0258,
+        "Prediction_Time": 7.8e-05
+    },
+    "Decision Tree": {
+        "MAE": 1.51,
+        "MSE": 8.4818,
+        "RMSE": 2.9124,
+        "R2_Score": 0.6709,
+        "CV_Score": 0.8916,
+        "Training_Time": 0.1068,
+        "Prediction_Time": 0.000109
+    },
+    "Random Forest": {
+        "MAE": 1.4457,
+        "MSE": 12.8874,
+        "RMSE": 3.5899,
+        "R2_Score": 0.5,
+        "CV_Score": 0.8808,
+        "Training_Time": 2.0348,
+        "Prediction_Time": 0.004976
+    },
+    "Gradient Boosting": {
+        "MAE": 1.2091,
+        "MSE": 7.5238,
+        "RMSE": 2.743,
+        "R2_Score": 0.7081,
+        "CV_Score": 0.8933,
+        "Training_Time": 1.3381,
+        "Prediction_Time": 0.000308
+    },
+    "Extra Trees": {
+        "MAE": 1.1284,
+        "MSE": 6.2239,
+        "RMSE": 2.4948,
+        "R2_Score": 0.7585,
+        "CV_Score": 0.7063,
+        "Training_Time": 0.6525,
+        "Prediction_Time": 0.00175
+    },
+    "Car Price Prediction": {
+        "MAE": 0.814,
+        "MSE": 3.0642,
+        "RMSE": 1.7505,
+        "R2_Score": 0.8811,
+        "CV_Score": 0.8977,
+        "Training_Time": 1.0454,
+        "Prediction_Time": 0.001441
+    },
+    "_metadata": {
+        "best_model": "Car Price Prediction",
+        "xgboost_available": true,
+        "sample_size": 299,
+        "timestamp": "2026-07-02 22:07:47"
+    }
+}

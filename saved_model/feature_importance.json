@@ -1,0 +1,92 @@
+[
+    {
+        "feature": "Present_Price",
+        "permutation_importance": 1.3841,
+        "native_importance": 0.712562,
+        "explanation": "Showroom price of the car. It has a strong positive effect; a more expensive base model leads to a higher resale price."
+    },
+    {
+        "feature": "Car_Age",
+        "permutation_importance": 0.211984,
+        "native_importance": 0.102811,
+        "explanation": "Age of the car. It has a strong negative effect; as the car gets older, it depreciates, decreasing the value."
+    },
+    {
+        "feature": "Kms_Driven",
+        "permutation_importance": 0.067753,
+        "native_importance": 0.008701,
+        "explanation": "Odometer reading. It has a negative effect; higher distance driven indicates more wear and tear, reducing value."
+    },
+    {
+        "feature": "Fuel_Type_Diesel",
+        "permutation_importance": 0.039719,
+        "native_importance": 0.101457,
+        "explanation": "Diesel engine indicator. Diesel cars generally hold higher resale value and fuel efficiency."
+    },
+    {
+        "feature": "Brand_Hyundai",
+        "permutation_importance": 0.0038,
+        "native_importance": 0.018167,
+        "explanation": "Hyundai cars are feature-rich and hold standard to high resale value."
+    },
+    {
+        "feature": "Brand_Toyota",
+        "permutation_importance": 0.001697,
+        "native_importance": 0.001471,
+        "explanation": "Toyota cars have excellent brand reputation and build quality, yielding superior resale values."
+    },
+    {
+        "feature": "Engine_Category_Medium",
+        "permutation_importance": -0.001604,
+        "native_importance": 0.004425,
+        "explanation": "Feature that affects resale price of cars."
+    },
+    {
+        "feature": "Transmission_Automatic",
+        "permutation_importance": 0.001254,
+        "native_importance": 0.003903,
+        "explanation": "Automatic transmission indicator. Automatic cars command a price premium in the resale market."
+    },
+    {
+        "feature": "Engine_Category_Small",
+        "permutation_importance": 0.001199,
+        "native_importance": 0.009875,
+        "explanation": "Small engines represent budget commuter cars, keeping prices lower."
+    },
+    {
+        "feature": "Brand_Others",
+        "permutation_importance": 0.001177,
+        "native_importance": 0.020835,
+        "explanation": "Feature that affects resale price of cars."
+    },
+    {
+        "feature": "Brand_Honda",
+        "permutation_importance": 0.00086,
+        "native_importance": 0.004699,
+        "explanation": "Honda cars have high reliability reputation, retaining value better than average."
+    },
+    {
+        "feature": "Luxury_Segment_Mid-Range",
+        "permutation_importance": 0.000226,
+        "native_importance": 0.007172,
+        "explanation": "Feature that affects resale price of cars."
+    },
+    {
+        "feature": "Brand_Reputation_High",
+        "permutation_importance": 0.000208,
+        "native_importance": 0.001471,
+        "explanation": "Feature that affects resale price of cars."
+    },
+    {
+        "feature": "Seller_Type_Dealer",
+        "permutation_importance": -0.000166,
+        "native_importance": 0.000623,
+        "explanation": "Dealer seller. Dealers sell cars at a premium because they often include inspection/warranties."
+    },
+    {
+        "feature": "Brand_Maruti Suzuki",
+        "permutation_importance": 0.000151,
+        "native_importance": 0.001488,
+        "explanation": "Maruti Suzuki cars are popular with cheap maintenance, keeping demand and resale value stable."
+    }
+]
