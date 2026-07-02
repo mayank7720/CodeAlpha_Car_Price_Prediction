@@ -250,11 +250,9 @@ export default function App() {
 
             {/* User Profile */}
             <div className="flex items-center gap-3 border-l border-white/10 pl-5">
-              <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100&auto=format&fit=facearea&facepad=2&w=256&h=256" 
-                alt="Profile" 
-                className="w-8 h-8 rounded-full border border-red-600/30"
-              />
+              <div className="w-8 h-8 rounded-full bg-red-600/10 border border-red-500/20 flex items-center justify-center text-red-500 text-xs font-black">
+                MR
+              </div>
               <div className="flex flex-col text-left">
                 <span className="text-xs font-bold text-slate-200">Mayank Raj</span>
                 <span className="text-[10px] text-slate-500 font-semibold uppercase leading-none">Admin</span>

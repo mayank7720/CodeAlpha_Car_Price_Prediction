@@ -117,8 +117,9 @@ menu = st.sidebar.radio(
 st.sidebar.markdown("---")
 st.sidebar.markdown("""
     <div style='display: flex; align-items: center; gap: 12px;'>
-        <img src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100&auto=format&fit=facearea&facepad=2&w=256&h=256' 
-             style='width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(220,38,38,0.3);'/>
+        <div style='width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(220,38,38,0.3); background-color: rgba(220,38,38,0.1); display: flex; align-items: center; justify-content: center; color: #dc2626; font-weight: bold; font-size: 14px;'>
+            MR
+        </div>
         <div>
             <div style='font-size: 13px; font-weight: bold; color: #e2e8f0;'>Mayank Raj</div>
             <div style='font-size: 9px; font-weight: bold; color: #64748b; text-transform: uppercase;'>Admin</div>
